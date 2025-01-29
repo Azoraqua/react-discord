@@ -1,0 +1,12 @@
+/.idea/
+/.vscode/
+/src/
+/test/
+/docs/
+/scripts/
+/release/
+/node_modules/
+
+.gitignore
+.releaserc.json
+pnpm-lock.yaml

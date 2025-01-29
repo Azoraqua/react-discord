@@ -1,0 +1,80 @@
+{
+  "name": "react-discord",
+  "version": "0.0.0",
+  "repository": "https://github.com/Azoraqua/react-discord.git",
+  "bugs": "https://github.com/Azoraqua/react-discord/issues",
+  "author": {
+    "name": "Ronald Bunk (Azoraqua)",
+    "url": "https://www.azoraqua.dev",
+    "email": "info@azoraqua.dev"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2",
+    "semantic-release": "^24.2.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0",
+    "react": ">=18.0.0"
+  },
+  "commitAnalyizer": {
+    "preset": "conventionalcommits",
+    "releaseRules": [
+      {
+        "type": "chore",
+        "scope": "deps",
+        "release": "patch"
+      },
+      {
+        "type": "fix",
+        "release": "patch"
+      },
+      {
+        "type": "feat",
+        "release": "minor"
+      },
+      {
+        "type": "BREAKING CHANGE",
+        "release": "major"
+      },
+      {
+        "type": "docs",
+        "release": "patch"
+      },
+      {
+        "type": "style",
+        "release": "patch"
+      },
+      {
+        "type": "refactor",
+        "release": "patch"
+      },
+      {
+        "type": "perf",
+        "release": "patch"
+      },
+      {
+        "type": "test",
+        "release": "patch"
+      }
+    ]
+  }
+}
